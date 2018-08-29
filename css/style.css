@@ -19,7 +19,7 @@ div {
 
 .container {
   border: thin black solid;
-  padding-top: 5%;
+  margin-top: 5%;
 }
 
 .blurb {
