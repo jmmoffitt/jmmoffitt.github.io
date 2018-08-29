@@ -22,7 +22,7 @@ div {
 .container {
   border: thin black solid;
   margin-top: 5%;
-  height: 200%;
+  height: 1000px;
 }
 
 .blurb {
