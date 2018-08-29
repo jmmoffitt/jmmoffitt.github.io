@@ -2,6 +2,13 @@ body {
     background-color: white;
 }
 
+nav {
+font-size: 5%;
+font-weight: bold;
+
+
+}
+
 h1 {
     color: black;
     margin-left: 20px;
