@@ -8,6 +8,8 @@ h1 {
 }
 
 div {
-    border: thin black solid;
+}
 
+#container {
+  border: thin black solid;
 }
