@@ -1,8 +1,13 @@
 body {
-    background-color: grey;
+    background-color: white;
 }
 
 h1 {
     color: black;
     margin-left: 20px;
+}
+
+div {
+    border: thin black solid;
+
 }
