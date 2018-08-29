@@ -5,7 +5,7 @@ body {
 nav {
 font-size: 20%;
 font-weight: bold;
-position:absolute;
+position:sticky;
 
 }
 
