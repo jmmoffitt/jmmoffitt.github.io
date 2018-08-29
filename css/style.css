@@ -13,3 +13,7 @@ div {
 #container {
   border: thin black solid;
 }
+
+#blurb {
+  border: thin red solid;
+}
