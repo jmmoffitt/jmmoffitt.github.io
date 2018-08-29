@@ -10,10 +10,10 @@ h1 {
 div {
 }
 
-#container {
+.container {
   border: thin black solid;
 }
 
-#blurb {
+.blurb {
   border: thin red solid;
 }
