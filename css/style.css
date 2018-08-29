@@ -5,13 +5,13 @@ body {
 nav {
 font-size: 20pt;
 font-weight: bold;
-position:fixed;
+position:absolute;
 color: black;
 background: #000111;
 }
 
 h1 {
-    color: black; 
+    color: black;
     margin-left: 20px;
 }
 
