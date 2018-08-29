@@ -3,9 +3,9 @@ body {
 }
 
 nav {
-font-size: 5%;
+font-size: 20%;
 font-weight: bold;
-
+position:fixed;
 
 }
 
