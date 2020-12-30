@@ -5,7 +5,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: red;
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,6 +13,7 @@ ul {
 
 li {
   float: left;
+  background-color: red;
 }
 
 li a {
@@ -21,6 +22,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: red;
 }
 
 ul:hover{
