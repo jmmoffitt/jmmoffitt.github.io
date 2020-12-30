@@ -3,11 +3,7 @@ body {
 }
 
 nav {
-font-size: 20pt;
-font-weight: bold;
-position:absolute;
-color: black;
-background: #000111;
+
 }
 
 h1 {
@@ -19,12 +15,14 @@ div {
 
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   border: thin black solid;
   margin-top: 5%;
   height: 1000px;
-}
-
-.blurb {
-  border: thin red solid;
 }
