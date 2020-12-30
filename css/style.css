@@ -1,14 +1,11 @@
-body {
-    background-color: white;
-}
-
+body {margin:0;}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(50, 50, 50);
+  background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,13 +13,11 @@ ul {
 
 li {
   float: left;
-  background-color: rgb(50, 50, 50);
-  color: white;
 }
 
 li a {
   display: block;
-  color: rgb(50, 50, 50);
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -34,16 +29,4 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #4CAF50;
-}
-
-a {
-  display: block;
-  padding: 8px;
-  background-color: #333333;
-}
-
-.container {
-  border: thin black solid;
-  margin-top: 5%;
-  height: 1000px;
 }
