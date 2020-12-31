@@ -29,6 +29,10 @@ ul:hover{
   background-color: #333333;
 }
 
+li:hover{
+  background-color:royalblue;
+}
+
 li a:hover {
   display: block;
   color: white;
@@ -49,7 +53,7 @@ li a:hover:not(.active) {
   margin-bottom: 50px !important;
 }
 
-li.bgflip:hover{
+#navlist li:hover{
   background-color:royalblue;
 }
 
