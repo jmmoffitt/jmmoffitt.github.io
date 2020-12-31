@@ -49,7 +49,7 @@ li a:hover:not(.active) {
   margin-bottom: 50px !important;
 }
 
-li.bgflip.active{
+li.bgflip:hover{
   background-color:royalblue;
 }
 
