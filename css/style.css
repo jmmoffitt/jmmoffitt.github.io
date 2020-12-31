@@ -35,7 +35,7 @@ li a:hover {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #333333;
+  background-color: #red;
 }
 
 li a:hover:not(.active) {
