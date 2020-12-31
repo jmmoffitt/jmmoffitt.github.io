@@ -26,7 +26,7 @@ li a {
 }
 
 ul:hover{
-  background-color: red;
+  background-color: #333333;
 }
 
 li a:hover {
