@@ -39,7 +39,7 @@ li a:hover {
 }
 
 li a:hover:not(.active) {
-  background-color: red;
+  background-color:#333333;
 }
 
 .active {
