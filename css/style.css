@@ -26,6 +26,7 @@ li a {
 }
 
 ul:hover{
+  background-color: red;
 }
 
 li a:hover {
@@ -34,7 +35,7 @@ li a:hover {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: red;
+  background-color: #333333;
 }
 
 li a:hover:not(.active) {
