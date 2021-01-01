@@ -1,8 +1,9 @@
 .container {  
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 
 .container > li {  
-  flex: 1;  
+  flex: 1;
 }
