@@ -16,7 +16,7 @@ ul {
   width: 100%;
 }
 
-li {
+li :not(img){
   float: left;
   background-color: #333333;
 }
@@ -34,9 +34,9 @@ ul:hover{
   background-color: #333333;
 }
 
-li:hover{
+/* li:hover{
   background-color:royalblue;
-}
+} */
 
 li a:hover {
   display: block;
