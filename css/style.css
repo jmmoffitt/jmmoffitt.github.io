@@ -1,5 +1,10 @@
 body {margin:0;}
 
+.logo {
+  height:100%;
+  background-color: #FFFFFF;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
