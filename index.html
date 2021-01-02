@@ -13,6 +13,9 @@
 		.topnav{
 			background-color: #333;
 			overflow:hidden;
+			position:fixed;
+			width:100%;
+			top:0;
 		  }
 		  
 		  .topnav a{
@@ -37,6 +40,15 @@
 		  
 		  .topnav .icon {
 			display:none;
+		  }
+
+		  .logo{
+			  height:.9em;
+		  }
+
+		  .block{
+			  background-color: black;
+			  height:1500px;
 		  }
 		  
 		@media screen and (max-width: 600px) {
@@ -65,7 +77,7 @@
 	<body>
 		<header>
 			<div class="topnav" id="myTopnav">
-				<a href="http://wwww.josephmoffitt.com" class="active">Home</a>
+				<a href="http://wwww.josephmoffitt.com" class="active"><img src=/img/logo.png class="logo" /></a>
 				<a href="http://www.github.com/jmmoffitt">Github</a>
 				<a href="">Projects</a>
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -73,8 +85,8 @@
 				</a>
 			  </div>
 		</header>
+		<div class="block"></div>
 		
-			
 		<footer>
 		</footer>
 
