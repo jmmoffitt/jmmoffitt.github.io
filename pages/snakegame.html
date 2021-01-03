@@ -9,9 +9,6 @@
 <style>
     #snakeboard{
         position:absolute;
-        top:50%;
-        bottom:50%;
-        transform: translate(-50%,-50%);
     }
 </style>
 </body>
@@ -52,15 +49,14 @@
     }
     
     function drawSnake(){
-
-        snake.forEach(drawSnakePart);
+        snake.forEach(drawSnakePart)
     }
 
     function drawSnakePart(snakePart){
-        snakeboard_ctx.fillStyle = 'lightblue';
-        snakeboard_ctx.strokeStyle = 'darkblue';
-        snakeboard_ctx.fillRect(snakePart.x,snakePart.y, 10,10);
-        snakeboard_ctx.strokerect(snakePart.x, snakePart.y,10,10);
+        snakeboard_ctx.fillStyle = snake_col;
+        snakeboard_ctx.strokeStyle = snake_border;
+        snakeboard_ctx.fillRect(snakePart.x, snakePart.y, 10, 10);
+        snakeboard_ctx.strokerect(snakePart.x, snakePart.y, 10, 10);
     }
 
 </script>
