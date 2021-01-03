@@ -4,6 +4,7 @@
         <title>Snake Game</title>
         <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
     </head>
+<body>
 <canvas id="gameCanvas" width="400" height="400"></canvas>
 <style>
     #snakeboard{
@@ -13,7 +14,7 @@
         transform: translate(-50%,-50%);
     }
 </style>
-
+</body>
 <script>
 
     const board_border = "black";
@@ -35,12 +36,12 @@
 
     main();
 
-    function main(){
+    function main() {
         clearCanvas();
         drawSnake();
     }
 
-    function clearCanvas(){
+    function clearCanvas() {
         snakeboard_ctx.fillStyle = board_background;
 
         snakeboard_ctx.strokeStyle = board_border;
@@ -49,9 +50,9 @@
 
         snakeboard_ctx.strokeRect(0,0,snakeboard.width, snakeboard.height);
     }
-
     
     function drawSnake(){
+
         snake.forEach(drawSnakePart);
     }
 
