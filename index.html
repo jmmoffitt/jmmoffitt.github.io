@@ -25,7 +25,19 @@
 			text-align:center;
 			padding: 14px 16px;
 			text-decoration:none;
-			font-size:17px;
+			font-size:1.5em;
+			text-transform: uppercase;
+		  }
+
+		  .topnav :not(:first-child){
+			float: left;
+			display:block;
+			color:#f2f2f2;
+			text-align:center;
+			padding: 1em 1em;
+			height:max-content;
+			text-decoration:none;
+			font-size:1.5em;
 			text-transform: uppercase;
 		  }
 		  
@@ -44,12 +56,25 @@
 		  }
 
 		  .logo{
-			  height:1.9em;
-		  }
+			height: auto;
+			width: auto;
+			max-height:1.72em;
+			max-width: 100px;
+		}
+		  
 
-		  .block{
+		  .backdrop{
 			  background-color:#222222;
-			  height:1500px;
+			  min-height:100vh;
+			  margin-top:20vh;
+			  border:red thick solid;
+		  }
+		  .topcontent{
+			background-color:#555555;
+			height:50vh;
+			margin-top:2vh;
+			border:green thick solid;
+			
 		  }
 		  
 		@media screen and (max-width: 600px) {
@@ -80,14 +105,18 @@
 			<div class="topnav" id="myTopnav">
 				<a href="http://wwww.josephmoffitt.com" class="active"><img src=/img/logo3.png class="logo" /></a>
 				<a href="http://www.github.com/jmmoffitt">Github</a>
-				<a href="">Projects</a>
+				<a href="/pages/snakegame.html">Snake Game</a>
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 				  <i class="fa fa-bars"></i>
 				</a>
 			  </div>
 		</header>
-		<div class="block"></div>
-		
+		<div class="backdrop">
+			<div class="topcontent">  
+				<h1>Welcome to my Portfolio</h1>
+			</div>
+
+		</div>
 		<footer>
 		</footer>
 
