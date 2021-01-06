@@ -4,7 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/fontawesome-free-5.15.1-web/css/all.min.css" type="text/css"/> 
-		<title>Joseph Moffitt</title>
+		<title>Fibbonacci Calculator</title>
 	</head>
 	<body>
 		<header>
@@ -18,8 +18,26 @@
 				</a>
 			  </div>
 		</header>
-		<div class="top-content">Welcome to my Portfolio</div>
-	
+		<div class="top-content">
+            <label for="fibnum">Enter the Fibonnacci number you want:</label>
+            <input type="number" id="fibnum" name="fibnum" min="1" max="500">
+           <script>
+               const  fib = (n, memo ={}) => {
+                   if (n in memo) return memo[n];
+                   if (n <= 2) return 1;
+                   memo[n] = fib(n-1, memo) + fib(n-2, memo);
+                   return memo[n];
+               }
+
+           </script>
+           <button onclick="fib(document.getElementById('fibnum').value)">Find Fib Number</button>
+            <br>
+            Result:<input id="output">
+            </div>
+        </div>
+	<script>
+       
+    </script>
 		<footer>
 		</footer>
 

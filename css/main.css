@@ -83,14 +83,16 @@ body {
     min-height:100vh;
     margin-top:20vh;
 }
-.topcontent{
+
+.top-content{
   background-color:#555555;
-  height:50vh;
-  margin-top:2vh;
-  border:green thick solid;
-  
+  min-height:100%;
+  margin-top:12vh;
+  Padding:5vh 5vh;
+
 }
-#contentcontainer{
+
+.contentcontainer{
   position:relative;
 }
 
